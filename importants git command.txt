@@ -1,0 +1,13 @@
+git clone <link> ( in project (remote) under code you can find the link) 
+git status (gives the status of the branch where we are ( which file are available) )
+git branch <Name> (create a new branch)
+git branch (how much branch, in which branch we are)
+git revert (how to reverse your changes)
+git commit -m "Message" ( Prepare data for upload )
+git push (send data form local to remote, Condition: first commit local)
+git push --set-upstream origin <Branch Name> ( push the Branch local to remote)
+git pull (inverse of push, Condition: first commit in remote)
+git merge ( only in remote mode!!! allows branch data to be moved to main. with permission of other members )
+git branch -d <name des Branchs> : Deleted local branch
+git push origin --delete <name des Branchs>: delete remote branch
+git checkout/git switch (change to another Branch)
